@@ -1,0 +1,26 @@
+{
+  "name": "vault-postgres-app",
+  "version": "1.0.0",
+  "description": "Node app with Vault and PostgreSQL",
+  "main": "src/index.ts",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node --watch src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-vault": "^0.10.2",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/pg": "^8.10.9",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
