@@ -1911,7 +1911,7 @@ export const seedData = {
             full_date: "2026-01-19",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:46:00",
             checkout_time_label: "7:46 PM",
             mood: "happy"
@@ -1922,10 +1922,10 @@ export const seedData = {
             full_date: "2026-01-20",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:48:00",
             checkout_time_label: "7:48 PM",
-            mood: "neutral"
+            mood: "calm"
         },
         {
             id: "a1f5c8e1-9a11-4b2f-8c01-001a00000004",
@@ -1933,7 +1933,7 @@ export const seedData = {
             full_date: "2026-01-20",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:48:00",
             checkout_time_label: "7:48 PM",
             mood: "excited"
@@ -1966,10 +1966,10 @@ export const seedData = {
             full_date: "2026-01-22",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:47:00",
             checkout_time_label: "7:47 PM",
-            mood: "neutral"
+            mood: "calm"
         },
         {
             id: "a1f5c8e1-9a11-4b2f-8c01-001a00000008",
@@ -1977,7 +1977,7 @@ export const seedData = {
             full_date: "2026-01-22",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:47:00",
             checkout_time_label: "7:47 PM",
             mood: "happy"
@@ -1988,7 +1988,7 @@ export const seedData = {
             full_date: "2026-01-23",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:50:00",
             checkout_time_label: "7:50 PM",
             mood: "excited"
@@ -1999,10 +1999,10 @@ export const seedData = {
             full_date: "2026-01-23",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:49:00",
             checkout_time_label: "7:49 PM",
-            mood: "neutral"
+            mood: "calm"
         },
         {
             id: "a1f5c8e1-9a11-4b2f-8c01-001a00000011",
@@ -2021,7 +2021,7 @@ export const seedData = {
             full_date: "2026-01-24",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:52:00",
             checkout_time_label: "7:52 PM",
             mood: "happy"
@@ -2032,7 +2032,7 @@ export const seedData = {
             full_date: "2026-01-25",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:44:00",
             checkout_time_label: "7:44 PM",
             mood: "upset"
@@ -2043,7 +2043,7 @@ export const seedData = {
             full_date: "2026-01-25",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:46:00",
             checkout_time_label: "7:46 PM",
             mood: "happy"
@@ -2054,7 +2054,7 @@ export const seedData = {
             full_date: "2026-01-26",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:51:00",
             checkout_time_label: "7:51 PM",
             mood: "excited"
@@ -2076,10 +2076,10 @@ export const seedData = {
             full_date: "2026-01-27",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:47:00",
             checkout_time_label: "7:47 PM",
-            mood: "neutral"
+            mood: "calm"
         },
         {
             id: "a1f5c8e1-9a11-4b2f-8c01-001a00000018",
@@ -2087,7 +2087,7 @@ export const seedData = {
             full_date: "2026-01-27",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:48:00",
             checkout_time_label: "7:48 PM",
             mood: "happy"
@@ -2098,7 +2098,7 @@ export const seedData = {
             full_date: "2026-01-28",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:55:00",
             checkout_time_label: "7:55 PM",
             mood: "excited"
@@ -2120,10 +2120,10 @@ export const seedData = {
             full_date: "2026-01-29",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:46:00",
             checkout_time_label: "7:46 PM",
-            mood: "neutral"
+            mood: "calm"
         },
         {
             id: "a1f5c8e1-9a11-4b2f-8c01-001a00000022",
@@ -2131,7 +2131,7 @@ export const seedData = {
             full_date: "2026-01-29",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:50:00",
             checkout_time_label: "7:50 PM",
             mood: "happy"
@@ -2142,7 +2142,7 @@ export const seedData = {
             full_date: "2026-01-30",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:48:00",
             checkout_time_label: "7:48 PM",
             mood: "happy"
@@ -2153,10 +2153,10 @@ export const seedData = {
             full_date: "2026-01-30",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:47:00",
             checkout_time_label: "7:47 PM",
-            mood: "neutral"
+            mood: "calm"
         },
         {
             id: "a1f5c8e1-9a11-4b2f-8c01-001a00000025",
@@ -2175,7 +2175,7 @@ export const seedData = {
             full_date: "2026-01-31",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:49:00",
             checkout_time_label: "7:49 PM",
             mood: "excited"
@@ -2186,7 +2186,7 @@ export const seedData = {
             full_date: "2026-02-01",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:53:00",
             checkout_time_label: "7:53 PM",
             mood: "happy"
@@ -2197,10 +2197,10 @@ export const seedData = {
             full_date: "2026-02-01",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:45:00",
             checkout_time_label: "7:45 PM",
-            mood: "neutral"
+            mood: "calm"
         },
         {
             id: "a1f5c8e1-9a11-4b2f-8c01-001a00000029",
@@ -2219,7 +2219,7 @@ export const seedData = {
             full_date: "2026-02-02",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:51:00",
             checkout_time_label: "7:51 PM",
             mood: "happy"
@@ -2230,7 +2230,7 @@ export const seedData = {
             full_date: "2026-02-03",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:46:00",
             checkout_time_label: "7:46 PM",
             mood: "upset"
@@ -2241,7 +2241,7 @@ export const seedData = {
             full_date: "2026-02-03",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:48:00",
             checkout_time_label: "7:48 PM",
             mood: "excited"
@@ -2252,7 +2252,7 @@ export const seedData = {
             full_date: "2026-02-04",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:54:00",
             checkout_time_label: "7:54 PM",
             mood: "happy"
@@ -2274,7 +2274,7 @@ export const seedData = {
             full_date: "2026-02-05",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:49:00",
             checkout_time_label: "7:49 PM",
             mood: "excited"
@@ -2285,10 +2285,10 @@ export const seedData = {
             full_date: "2026-02-05",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:47:00",
             checkout_time_label: "7:47 PM",
-            mood: "neutral"
+            mood: "calm"
         },
         {
             id: "a1f5c8e1-9a11-4b2f-8c01-001a00000037",
@@ -2296,10 +2296,10 @@ export const seedData = {
             full_date: "2026-02-06",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "partial",
+            meal_progress: "half_eaten",
             checkout_time: "19:45:00",
             checkout_time_label: "7:45 PM",
-            mood: "neutral"
+            mood: "calm"
         },
         {
             id: "a1f5c8e1-9a11-4b2f-8c01-001a00000038",
@@ -2307,7 +2307,7 @@ export const seedData = {
             full_date: "2026-02-06",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:50:00",
             checkout_time_label: "7:50 PM",
             mood: "happy"
@@ -2329,7 +2329,7 @@ export const seedData = {
             full_date: "2026-02-07",
             attendance: true,
             created_by: "550e8400-e29b-41d4-a716-446655440002",
-            meal_progress: "complete",
+            meal_progress: "full_eaten",
             checkout_time: "19:52:00",
             checkout_time_label: "7:52 PM",
             mood: "excited"
