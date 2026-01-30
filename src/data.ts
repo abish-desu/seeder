@@ -1821,7 +1821,6 @@ export const seedData = {
         { id: 'acf68228-021a-4c0b-8343-5c4f9dcf36ae', role_id: 'e4b7c8a9-5d2e-4f1a-8c6b-9a0e3d2f0606', permission_id: 'd2dbc452-e0e9-4269-9a0c-e1c5dbe29f2e' },
         { id: '2e82bd46-e4b2-49d0-a350-1780a972d3d0', role_id: 'e4b7c8a9-5d2e-4f1a-8c6b-9a0e3d2f0606', permission_id: '2ea5dc33-06fe-4715-90f5-3a4339287847' },
     ],
-
     user_roles: [
         // School Admin
         {
@@ -1894,7 +1893,448 @@ export const seedData = {
             assigned_at: '2025-10-30 12:15:00'
         }
     ],
-
+    student_activity: [
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000001",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-19",
+            attendance: false,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: null,
+            checkout_time: null,
+            checkout_time_label: null,
+            mood: null
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000002",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-19",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:46:00",
+            checkout_time_label: "7:46 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000003",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-20",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:48:00",
+            checkout_time_label: "7:48 PM",
+            mood: "neutral"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000004",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-20",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:48:00",
+            checkout_time_label: "7:48 PM",
+            mood: "excited"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000005",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-21",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "not_eaten",
+            checkout_time: "19:45:00",
+            checkout_time_label: "7:45 PM",
+            mood: "sad"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000006",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-21",
+            attendance: false,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: null,
+            checkout_time: null,
+            checkout_time_label: null,
+            mood: null
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000007",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-22",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:47:00",
+            checkout_time_label: "7:47 PM",
+            mood: "neutral"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000008",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-22",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:47:00",
+            checkout_time_label: "7:47 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000009",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-23",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:50:00",
+            checkout_time_label: "7:50 PM",
+            mood: "excited"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000010",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-23",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:49:00",
+            checkout_time_label: "7:49 PM",
+            mood: "neutral"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000011",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-24",
+            attendance: false,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: null,
+            checkout_time: null,
+            checkout_time_label: null,
+            mood: null
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000012",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-24",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:52:00",
+            checkout_time_label: "7:52 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000013",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-25",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:44:00",
+            checkout_time_label: "7:44 PM",
+            mood: "upset"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000014",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-25",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:46:00",
+            checkout_time_label: "7:46 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000015",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-26",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:51:00",
+            checkout_time_label: "7:51 PM",
+            mood: "excited"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000016",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-26",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "not_eaten",
+            checkout_time: "19:43:00",
+            checkout_time_label: "7:43 PM",
+            mood: "sad"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000017",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-27",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:47:00",
+            checkout_time_label: "7:47 PM",
+            mood: "neutral"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000018",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-27",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:48:00",
+            checkout_time_label: "7:48 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000019",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-28",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:55:00",
+            checkout_time_label: "7:55 PM",
+            mood: "excited"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000020",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-28",
+            attendance: false,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: null,
+            checkout_time: null,
+            checkout_time_label: null,
+            mood: null
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000021",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-29",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:46:00",
+            checkout_time_label: "7:46 PM",
+            mood: "neutral"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000022",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-29",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:50:00",
+            checkout_time_label: "7:50 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000023",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-30",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:48:00",
+            checkout_time_label: "7:48 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000024",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-30",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:47:00",
+            checkout_time_label: "7:47 PM",
+            mood: "neutral"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000025",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-01-31",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "not_eaten",
+            checkout_time: "19:42:00",
+            checkout_time_label: "7:42 PM",
+            mood: "sad"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000026",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-01-31",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:49:00",
+            checkout_time_label: "7:49 PM",
+            mood: "excited"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000027",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-02-01",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:53:00",
+            checkout_time_label: "7:53 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000028",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-02-01",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:45:00",
+            checkout_time_label: "7:45 PM",
+            mood: "neutral"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000029",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-02-02",
+            attendance: false,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: null,
+            checkout_time: null,
+            checkout_time_label: null,
+            mood: null
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000030",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-02-02",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:51:00",
+            checkout_time_label: "7:51 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000031",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-02-03",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:46:00",
+            checkout_time_label: "7:46 PM",
+            mood: "upset"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000032",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-02-03",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:48:00",
+            checkout_time_label: "7:48 PM",
+            mood: "excited"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000033",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-02-04",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:54:00",
+            checkout_time_label: "7:54 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000034",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-02-04",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "not_eaten",
+            checkout_time: "19:40:00",
+            checkout_time_label: "7:40 PM",
+            mood: "sad"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000035",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-02-05",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:49:00",
+            checkout_time_label: "7:49 PM",
+            mood: "excited"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000036",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-02-05",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:47:00",
+            checkout_time_label: "7:47 PM",
+            mood: "neutral"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000037",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-02-06",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "partial",
+            checkout_time: "19:45:00",
+            checkout_time_label: "7:45 PM",
+            mood: "neutral"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000038",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-02-06",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:50:00",
+            checkout_time_label: "7:50 PM",
+            mood: "happy"
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000039",
+            user_id: "550e8400-e29b-41d4-a716-446655440006",
+            full_date: "2026-02-07",
+            attendance: false,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: null,
+            checkout_time: null,
+            checkout_time_label: null,
+            mood: null
+        },
+        {
+            id: "a1f5c8e1-9a11-4b2f-8c01-001a00000040",
+            user_id: "550e8400-e29b-41d4-a716-446655440007",
+            full_date: "2026-02-07",
+            attendance: true,
+            created_by: "550e8400-e29b-41d4-a716-446655440002",
+            meal_progress: "complete",
+            checkout_time: "19:52:00",
+            checkout_time_label: "7:52 PM",
+            mood: "excited"
+        }
+    ]
 };
 
 export type SeedTable = keyof typeof seedData;
