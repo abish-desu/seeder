@@ -118,7 +118,7 @@ async function main() {
       'time_periods',
       'teacher_assignments',
       'class_section_timetables',
-      // 'meals',
+      'meals',
       'notice',
       'notice_class_sections',
       'leave_requests',
