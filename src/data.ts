@@ -1196,7 +1196,7 @@ export const seedData = {
             created_at: '2024-04-01T10:00:00Z',
             updated_at: '2024-04-01T10:00:00Z'
         },
-        
+
     ],
     week_days: [
         { id: '690e8400-e29b-41d4-a716446655440000', name: 'Sunday', short_name: 'Sun', day_order: 1, is_active: true },
@@ -2308,7 +2308,393 @@ export const seedData = {
             mood: "happy"
         }
 
+    ],
+    categories: [
+        {
+            id: "11111111-1111-1111-1111-111111111111",
+            name: "Physical Development",
+            description:
+                "Observed during normal classroom activities, not performance based",
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "22222222-2222-2222-2222-222222222222",
+            name: "Cognitive Development",
+            description: "Thinking, understanding, problem-solving",
+            display_order: 2,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "33333333-3333-3333-3333-333333333333",
+            name: "Social–Emotional Development",
+            description: "Classroom-friendly and practical",
+            display_order: 3,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "44444444-4444-4444-4444-444444444444",
+            name: "Language & Communication",
+            description: "Listening, speaking, reading & writing",
+            display_order: 4,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "55555555-5555-5555-5555-555555555555",
+            name: "Need Monitoring",
+            description: "Specific concerns observed",
+            display_order: 5,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+    ],
+    questions: [
+        // Physical
+        {
+            id: "aaaa1111-0000-0000-0000-000000000001",
+            category_id: "11111111-1111-1111-1111-111111111111",
+            type: "radio",
+            name: "Gross Motor Skills",
+            description: "Body movement, balance, and coordination",
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "aaaa1111-0000-0000-0000-000000000002",
+            category_id: "11111111-1111-1111-1111-111111111111",
+            type: "radio",
+            name: "Fine Motor Skills",
+            description: "Hand and finger control",
+            display_order: 2,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+
+        // Cognitive
+        {
+            id: "bbbb2222-0000-0000-0000-000000000001",
+            category_id: "22222222-2222-2222-2222-222222222222",
+            type: "radio",
+            name: "Thinking & Understanding",
+            description: null,
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+
+        // Social Emotional
+        {
+            id: "cccc3333-0000-0000-0000-000000000001",
+            category_id: "33333333-3333-3333-3333-333333333333",
+            type: "radio",
+            name: "Social & Emotional Skills",
+            description: null,
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+
+        // Language
+        {
+            id: "dddd4444-0000-0000-0000-000000000001",
+            category_id: "44444444-4444-4444-4444-444444444444",
+            type: "radio",
+            name: "Listening & Speaking",
+            description: null,
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+
+        // Monitoring
+        {
+            id: "eeee5555-0000-0000-0000-000000000001",
+            category_id: "55555555-5555-5555-5555-555555555555",
+            type: "hybrid",
+            name: "Monitoring Required",
+            description: "If any specific concern is noticed",
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
     ]
+    ,
+    question_options: [
+        // Gross Motor Skills
+        {
+            id: "8a1b2c3d-1111-4a11-8abc-000000000001",
+            question_id: "aaaa1111-0000-0000-0000-000000000001",
+            label: "Participates in movement activities (walking, running, play)",
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+        {
+            id: "8a1b2c3d-1111-4a11-8abc-000000000002",
+            question_id: "aaaa1111-0000-0000-0000-000000000001",
+            label: "Maintains balance during movement activities",
+            display_order: 2,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+        {
+            id: "8a1b2c3d-1111-4a11-8abc-000000000003",
+            question_id: "aaaa1111-0000-0000-0000-000000000001",
+            label: "Moves confidently during outdoor or free play",
+            display_order: 3,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+        {
+            id: "8a1b2c3d-1111-4a11-8abc-000000000004",
+            question_id: "aaaa1111-0000-0000-0000-000000000001",
+            label: "Shows good energy level during physical activities",
+            display_order: 4,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+        {
+            id: "8a1b2c3d-1111-4a11-8abc-000000000005",
+            question_id: "aaaa1111-0000-0000-0000-000000000001",
+            label: "Participates sometimes, needs encouragement",
+            display_order: 5,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+        {
+            id: "8a1b2c3d-1111-4a11-8abc-000000000006",
+            question_id: "aaaa1111-0000-0000-0000-000000000001",
+            label: "Not observed this week",
+            display_order: 6,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+
+        // Fine Motor Skills
+        {
+            id: "9b2c3d4e-2222-4b22-9def-000000000001",
+            question_id: "aaaa1111-0000-0000-0000-000000000002",
+            label: "Uses hands comfortably during activities (blocks, toys)",
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+        {
+            id: "9b2c3d4e-2222-4b22-9def-000000000002",
+            question_id: "aaaa1111-0000-0000-0000-000000000002",
+            label: "Holds pencil/crayon with control",
+            display_order: 2,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+        {
+            id: "9b2c3d4e-2222-4b22-9def-000000000003",
+            question_id: "aaaa1111-0000-0000-0000-000000000002",
+            label: "Manipulates small objects (beads, puzzles)",
+            display_order: 3,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+        {
+            id: "9b2c3d4e-2222-4b22-9def-000000000004",
+            question_id: "aaaa1111-0000-0000-0000-000000000002",
+            label: "Uses spoon or classroom tools independently",
+            display_order: 4,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+        {
+            id: "9b2c3d4e-2222-4b22-9def-000000000005",
+            question_id: "aaaa1111-0000-0000-0000-000000000002",
+            label: "Needs support or guidance for fine motor activities",
+            display_order: 5,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+        {
+            id: "9b2c3d4e-2222-4b22-9def-000000000006",
+            question_id: "aaaa1111-0000-0000-0000-000000000002",
+            label: "Not observed this week",
+            display_order: 6,
+            created_by: "550e8400-e29b-41d4-a716-446655440000",
+        },
+
+
+        // Thinking & Understanding
+        {
+            id: "90000000-0000-0000-0000-000000000001",
+            question_id: "bbbb2222-0000-0000-0000-000000000001",
+            label: "Shows curiosity and interest in activities",
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000002",
+            question_id: "bbbb2222-0000-0000-0000-000000000001",
+            label: "Follows simplebbbb2222-0000-0000-0000-000000000001 instructions",
+            display_order: 2,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000003",
+            question_id: "bbbb2222-0000-0000-0000-000000000001",
+            label: "Tries to solve simple problems",
+            display_order: 3,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000004",
+            question_id: "bbbb2222-0000-0000-0000-000000000001",
+            label: "Recognizes familiar objects or routines",
+            display_order: 4,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000005",
+            question_id: "bbbb2222-0000-0000-0000-000000000001",
+            label: "Pays attention during an activity for a short time",
+            display_order: 5,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000006",
+            question_id: "bbbb2222-0000-0000-0000-000000000001",
+            label: "Attempts to complete a task once started",
+            display_order: 6,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000007",
+            question_id: "bbbb2222-0000-0000-0000-000000000001",
+            label: "Needs repeated guidance or reminders",
+            display_order: 7,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000008",
+            question_id: "bbbb2222-0000-0000-0000-000000000001",
+            label: "Not observed this week",
+            display_order: 8,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+
+        // Social & Emotional
+        {
+            id: "90000000-0000-0000-0000-000000000009",
+            question_id: "cccc3333-0000-0000-0000-000000000001",
+            label: "Interacts positively with peers",
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000010",
+            question_id: "cccc3333-0000-0000-0000-000000000001",
+            label: "Shows comfort and security in classroom",
+            display_order: 2,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000011",
+            question_id: "cccc3333-0000-0000-0000-000000000001",
+            label: "Expresses emotions according to the situation",
+            display_order: 3,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000012",
+            question_id: "cccc3333-0000-0000-0000-000000000001",
+            label: "Shares or takes turns during activities",
+            display_order: 4,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000013",
+            question_id: "cccc3333-0000-0000-0000-000000000001",
+            label: "Recognizes basic emotions (happy, sad, angry)",
+            display_order: 5,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000014",
+            question_id: "cccc3333-0000-0000-0000-000000000001",
+            label: "Able to handle various emotions appropriately",
+            display_order: 6,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000015",
+            question_id: "cccc3333-0000-0000-0000-000000000001",
+            label: "Seeks help from teacher when needed",
+            display_order: 7,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000016",
+            question_id: "cccc3333-0000-0000-0000-000000000001",
+            label: "Needs emotional support or reassurance",
+            display_order: 8,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000017",
+            question_id: "cccc3333-0000-0000-0000-000000000001",
+            label: "Not observed this week",
+            display_order: 9,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+
+        // Listening & Speaking
+        {
+            id: "90000000-0000-0000-0000-000000000018",
+            question_id: "dddd4444-0000-0000-0000-000000000001",
+            label: "Listens during stories or group time",
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000019",
+            question_id: "dddd4444-0000-0000-0000-000000000001",
+            label: "Uses words or gestures to express needs",
+            display_order: 2,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000020",
+            question_id: "dddd4444-0000-0000-0000-000000000001",
+            label: "Responds when spoken to",
+            display_order: 3,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000021",
+            question_id: "dddd4444-0000-0000-0000-000000000001",
+            label: "Attempts to communicate with peers",
+            display_order: 4,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000022",
+            question_id: "dddd4444-0000-0000-0000-000000000001",
+            label: "Uses gestures or sounds when words are not clear",
+            display_order: 5,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000023",
+            question_id: "dddd4444-0000-0000-0000-000000000001",
+            label: "Needs encouragement to communicate",
+            display_order: 6,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000024",
+            question_id: "dddd4444-0000-0000-0000-000000000001",
+            label: "Not observed this week",
+            display_order: 7,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+
+        // Monitoring
+        {
+            id: "90000000-0000-0000-0000-000000000025",
+            question_id: "eeee5555-0000-0000-0000-000000000001",
+            label: "Yes - needs monitoring",
+            display_order: 1,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+        {
+            id: "90000000-0000-0000-0000-000000000026",
+            question_id: "eeee5555-0000-0000-0000-000000000001",
+            label: "No concern observed at present",
+            display_order: 2,
+            created_by: "550e8400-e29b-41d4-a716446655440000",
+        },
+
+    ]
+
 };
 
 export type SeedTable = keyof typeof seedData;

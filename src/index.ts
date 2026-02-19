@@ -126,7 +126,10 @@ async function main() {
       'user_roles',
       'permission',
       'role_permission',
-      'student_activity'
+      'student_activity',
+      'categories',
+      'questions',
+      'question_options',
     ] as const;
 
     for (const table of seedOrder as readonly SeedTable[]) {
